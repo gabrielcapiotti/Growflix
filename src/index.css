@@ -1,0 +1,40 @@
+body, html{
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: transparent
+
+}
+
+.nav-item{
+    background-color: rgb(254, 254, 254);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    font-size: larger;
+}
+
+.nav-item:hover{
+    background-color: rgb(219, 142, 0);
+    transform: scale(1.1);
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color: rgb(219, 142, 0);
+    transform: scale(1.1);
+
+}
